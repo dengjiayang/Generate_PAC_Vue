@@ -1,44 +1,51 @@
-# element-plus-vite-starter
 
-> A starter kit for Element Plus with Vite
 
-<img width="800" alt="Element Plus" src="https://user-images.githubusercontent.com/10731096/97282764-0726eb80-187a-11eb-9658-6dc98ccb8f8d.png">
+<h1 align="center">Generate_PAC_Node</h1>
 
-- Preview: <https://vite-starter.element-plus.org>
+<div align="center">
 
-This is an example of on-demand element-plus with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components).
 
-> If you want to import all, it may be so simple that no examples are needed. Just follow [quickstart | Docs](https://element-plus.org/zh-CN/guide/quickstart.html) and import them.
 
-If you just want an on-demand import example `manually`, you can check [unplugin-element-plus/examples/vite](https://github.com/element-plus/unplugin-element-plus/tree/main/examples/vite).
+English | [简体中文](./README-zh_CN.md) 
 
-## Project setup
+ [![License][License-image]][License-url]
+ 
+</div>
 
-```bash
-npm install
-```
+## Abstract
+The intent of the project is to generate a custom PAC file on the server to simplify the proxy setup experience on mobile devices
 
-### Compiles and hot-reloads for development
+## Technology Stack
+[Vue.js] | [ElementUI-Plus] | [Vite]
+## QuickStart
 
-```bash
-npm run dev
-```
-
-### Compiles and minifies for production
 
 ```bash
-npm run build
+Development
+$ npm i
+$ npm run dev
+$ open http://localhost:3000/ by browsers
 ```
 
-## Usage
 
-```bash
-git clone https://github.com/element-plus/element-plus-vite-starter
-cd element-plus-vite-starter
-npm i
-npm run dev
-```
+## Multi-language Version
+1. [Node Full-Stack Version] ✅ Available
+2. [Vue3 + Vite + ElementUI-Plus FrontEnd Version] ✅ Available
+3. [Go + GoFrame BackEnd Version] 🤷‍♂️ Temporarily unavailable
 
-### Custom theme
 
-See `src/styles/element/index.scss`.
+
+[Vue.js]:https://v3.cn.vuejs.org/
+[ElementUI-Plus]:https://element-plus.org/zh-CN/
+[Vite]:https://vitejs.dev/
+
+[Node Full-Stack Version]: https://github.com/rabbit2002/Node_Generate_PAC_Demo
+[Vue3 + Vite + ElementUI-Plus FrontEnd Version]: https://github.com/dengjiayang/Generate_PAC_Vue
+[Go + GoFrame BackEnd Version]: https://github.com/rabbit2002/Node_Generate_PAC_Demo
+
+
+
+[fossa-image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fant-design%2Fant-design.svg?type=shield
+[fossa-url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fant-design%2Fant-design?ref=badge_shield
+[License-image]: https://img.shields.io/badge/license-GPL-blue
+[License-url]: https://img.shields.io/badge/license-GPL-blue
